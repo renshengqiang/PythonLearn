@@ -6,7 +6,7 @@ print(sStr1)
 s = 'ab,cde,fgh,ijk'
 print(s.split(','))
 path1='/home/tnqiangren/killer_data.ifs'
-print(os.path.split(path1)[-1])
+print(os.path.split(path1)[0])
 print(os.path.split(path1))
 path2='killer_data.ifs'
 print(os.path.split(path2)[-1])
